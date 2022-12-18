@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>online Courses</title>
+        <script src="https://kit.fontawesome.com/43df530aea.js" crossorigin="anonymous"></script>
+        <style>
+                        marquee{
+                background-color: rgb(226, 169, 63);
+                padding: 10px;
+            }
+            #ug{
+                color: white;
+                background-color: black;
+                padding: 10px;
+                display: grid;
+                grid-template-columns: 30% 40% auto auto auto auto ;
+            }
+            .hello{
+                background-color: aquamarine;
+                padding: 10px;
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto auto;
+                text-decoration: none;
+            }
+            #buji{
+        background-color: aliceblue;
+        padding: 10px;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        border-radius: 10px;
+       } 
+       #buji{
+        display: none;
+        position: absolute;
+        top: 190px;
+        left: 75%;
+       }
+            #rowdy{
+            border-radius: 20px;
+            height: 30px;
+            width: 100px;
+            position: absolute;
+            top: 130px;
+            right: 80px;
+            background-color: darkgreen;
+         }
+         #raj{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+       }
+       #main{
+        position:absolute;
+        top: 10px;
+        right: 2%;
+        color:black;
+       }
+       #mark:hover{
+        background-color: aliceblue;
+        color: crimson;
+       }
+       #make{
+        display: none;
+        position: absolute;
+        top: 200px;
+        left: 600px;
+        height: 100px;
+        width: 200px;
+        background-color: aliceblue;
+        text-align: center;
+       }
+       #email:hover{
+            color: red;
+         }
+         #red:hover{
+            color: red;
+         }
+         #black:hover{
+            color: red;
+            padding: 10px;
+            background-color: azure;
+         }
+         main{
+            color:aliceblue;
+            height: 20px;
+            width: 150px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+         }
+         #mark:hover{
+            background-color: aliceblue;
+            height: 10px;
+            width:100px ;
+            padding: 10px;
+         }
+         #black:hover{
+            color: red;
+            padding: 10px;
+            background-color: azure;
+            height: 10px;
+            width: 80px;
+            padding: 10px;
+         }
+         #para1:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 80px;
+            text-align: center;
+            color: red;
+         }
+         #para2:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 150px;
+            text-align: center;
+            color: red;
+         }
+         #para3:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 100px;
+            text-align: center;
+            color: red;
+         }
+         p{
+            width: 250px;
+         }
+         .e{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 20px;
+         }
+         img{
+            width:250px;
+         }
+         #f{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 20px;
+         }
+         h1{
+            position: absolute;
+            right:20px;
+            top: 190px;
+         }
+         .select{
+            background-color: antiquewhite;
+            width: 20%;
+            height: 500px;
+            overflow-y: scroll;
+            position: absolute;
+            left: 80%;
+            top: -1000px;
+            transition: 0.05s;
+         }
+         .select.display{
+            top: 40%;
+         }
+         #filter{
+            padding: 20px;
+         }
+         </style>
+
+    </head>
+    <body>
+        <marquee behavior="alternate" direction="left">Our best offer Ever!!Summer Special - Get 3 Courses at 22499/- only.<U style="color: blue;">Read More</U></marquee> 
+      <div id="ug">
+      <main id="email">Email:besanttechnology@gmail.com</main>
+       <main id="red">contact:+919025741101</main>
+       <a href="http://127.0.0.1:5500/facebook.html?" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="http://127.0.0.1:5500/twittwer.html" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="http://127.0.0.1:5500/instagram.html?" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+       <a href="http://127.0.0.1:5500/linkendin.html" target="_blank"><i  class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    </div>
+    <div class="hello">
+        <h4 style="color: green;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            Besant Technology</h4>
+            <a href="http://127.0.0.1:5500/project-1.html" target="_blank"><h4 id="black">Home</h4></a>
+            <h4 id="para1">About</h4>
+            <h4 id="mark" onclick="goggle()">Courses</h4>
+                <form id="make">
+                    <span id="main">&times;</span>
+                    <br>
+                    <button style="width:170px ; height:30px">Front End</button><br>
+                    <a href="http://127.0.0.1:5500/backend.html" target="_blank"><input type="button" value="Back End" style="width:170px ; height:30px"></a>
+                 </form>
+                 <h4 id="para2">Online Training</h4>
+                 <h4 id="para3">Contact</h4>
+                 <input type="submit" value="Enquairy" id="rowdy" onclick="myCall()">
+             </div>
+             <br><br>
+            <form id="buji" onsubmit="enquairy()">
+    <main id="raj">&times;</main> 
+    <h3>Quick Enquiry</h3>
+    <br><br>
+    <label>Name*</label><br>
+    <input type="text" id="input1" required><br>
+    <label>Phone:</label><br>
+    <input type="type" id="input2" required><br>
+    <label>Email*</label><br>
+    <input type="email" id="input3" required><br><br>
+    <input type="submit" value="IM Intersted Tell Me More" id="input4" required>
+</form>
+<input type="text" id="filter" placeholder="filter" onkeyup="search()" size="40">
+<h1><i class="fa fa-shopping-cart" aria-hidden="true" id="k"></i></h1>
+<br><br><br><br>
+<section>
+<div class="e">
+<div class="item" onclick="onClose()">
+    <img src="https://uploads-ssl.webflow.com/60a2624c279a8e8fe3bdcaad/60b78e591574a606f5c5b64c_junglescout-p-500.jpeg" id="a">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, libero! Esse laboriosam illum vel laborum, voluptates recusandae consequatur perferendis totam eum neque quis eius facere maxime delectus pariatur eaque excepturi!<br><br><b>$345.89</b></p>
+    <h3 class="card-title">JAVASCRIPT</h3>
+    <button>Add-cart</button>
+</div>
+<div class="item">
+    <img src="https://th.bing.com/th/id/OIP.scZtKzM0T-sPYZxYBAJvRAHaIO?w=194&h=215&c=7&r=0&o=5&pid=1.7">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quos beatae quasi natus iure, qui porro odio dolorum, blanditiis autem culpa! Est eum hic illum id delectus inventore, laborum mollitia.<br><br><b>$345.89</b></p>
+   <h3 class="card-title">PYTHON</h3>
+    <button>Add-cart</button>
+</div>
+<div class="item">
+    <img src="https://portfolio.bluecloudt.com/wp-content/uploads/2019/11/HTML_Logo.png" id="g">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae quos incidunt iusto id dolorem consequuntur dicta iste laboriosam culpa! Recusandae id deserunt facilis voluptatem reiciendis, impedit quae laboriosam quibusdam!<br><br><b>$345.89</b></p>
+    <h3 class="card-title">HTML5</h3>
+    <button>Add-cart</button>
+</div>
+</div>
+<br><br><br><br>
+<div id="f">
+<div class="item">
+    <img src="https://th.bing.com/th/id/OIP.BqiEhUIGUiRmaqn58h5eGwHaHa?pid=ImgDet&w=512&h=512&rs=1">
+    <p>Lorem ipsum dolor  voluptatem repellat saepe explicabo? Labore ut asperiores dicta id molestiae molestias, ab obcaecati eum repellendus.<br><br><b>$349.85</b></p>
+    <h3 class="card-title">CSS</h3>
+    <button>Add-cart</button>
+</div>
+<div class="item">
+    <img src="https://th.bing.com/th/id/OIP.rHmdBo44IpaWi76BtvvspQHaE7?pid=ImgDet&rs=1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis praesentium impedit cupiditate reiciendis atrsdxcgf rastdghvjh dxcvbjhb fdxcd xchbnlk hfvbnmji fdcvbjnj  itaque laboriosam consequatur eligendi, similique illum, ipsam amet, asperiores hic harum! Impedit repellendus beatae maxime expedita ab.<br><br><b>$349.89</b></p>
+    <h3 class="card-title">AWS</h3>
+    <button>Add-cart</button>
+</div>
+<div class="item">
+    <img src="https://supersonique-studio.com/wp-content/uploads/2016/07/mysql-logo.jpg">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, quo. Cupiditate ipsam nobis modi alias tempore minus fugiat excepturi dolor at dolores.ipsam nobis modi alias tempore minus fugiat excepturi dolor at dolores.ipsam nobis modi alias tempore minus f ipsam nobis modi alias tempore minus fugiat excepturi dolor at dolores.ugiat excepturi dolor at dolores. Debitis neque rem velit? Numquam sed voluptatum dolorem!<br><br><b>$345.89</b></p>
+    <h3>MYSQL</h3>
+    <button class="card-title">Add-cart</button>
+</div>
+</div>
+</section>
+<div class="select">
+
+</div>
+
+
+
+<script>
+    const front=document.getElementById("mark")
+                const back=document.getElementById("make")
+                function goggle(){
+                    back.style.display="block"
+                }
+                const rajesh=document.getElementById("main")
+                rajesh.onclick=function(){
+                    back.style.display="none"
+                }
+
+
+                function enquairy(){
+const b1=document.getElementById("input1").value
+const b2=document.getElementById("input2").value
+const b3=document.getElementById("input3").value
+const b4=document.getElementById("input4").value
+
+if(b1.length<6){
+alert("alteast enter more than 6 characters")
+}
+else if(b2.length==10){
+alert("enter 10 digit numbers")
+}
+else{
+alert("successfully submitted")
+}
+}
+
+const input=document.getElementById("rowdy")
+const g=document.getElementById("buji")
+function myCall(){
+g.style.display="block"
+}
+
+const haritha=document.getElementById("raj")
+haritha.onclick=function(){
+g.style.display="none"
+}
+
+function addData(){
+    
+}
+function search(){
+    const input=document.getElementById("filter").value.toUpperCase();
+    const card=document.getElementsByClassName("item")
+    for(let i=0;i<card.length;i++){
+        var title=card[i].querySelector(".card-title")
+        if(title.innerText.toUpperCase().indexOf(input)>-1){
+            card[i].style.display=""
+        }
+        else{
+            card[i].style.display="none"
+        }
+        
+    }
+}
+
+const btn=document.getElementsByTagName("button")
+const select=document.querySelector(".select")
+const n=document.querySelector("h1")
+for(var b of btn){
+   b.addEventListener("click",(e)=>{
+    var parent=e.target.parentNode;
+    var clone=parent.cloneNode(true)
+    clone.lastElementChild.innerText="Book-now"
+    select.appendChild(clone)
+    if(clone){
+        n.onclick=function(){
+            select.classList.toggle("display")
+        }
+    }
+   })
+}
+clone.addEventListener("click",(e)=>{
+    
+})
+
+</script>
+    </body>
+</html>
