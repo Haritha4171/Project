@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FRONTEND</title>
+        <script src="https://kit.fontawesome.com/43df530aea.js" crossorigin="anonymous"></script>
+        <style>
+                        marquee{
+                background-color: rgb(226, 169, 63);
+                padding: 10px;
+            }
+            #ug{
+                color: white;
+                background-color: black;
+                padding: 10px;
+                display: grid;
+                grid-template-columns: 30% 40% auto auto auto auto ;
+            }
+            .hello{
+                background-color: aquamarine;
+                padding: 10px;
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto auto;
+                text-decoration: none;
+            }
+            #buji{
+        background-color: aliceblue;
+        padding: 10px;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        border-radius: 10px;
+       } 
+       #buji{
+        display: none;
+        position: absolute;
+        top: 190px;
+        left: 75%;
+       }
+            #rowdy{
+            border-radius: 20px;
+            height: 30px;
+            width: 100px;
+            position: absolute;
+            top: 130px;
+            right: 80px;
+            background-color: darkgreen;
+         }
+         #raj{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+       }
+       #main{
+        position:absolute;
+        top: 10px;
+        right: 2%;
+        color:black;
+       }
+       #mark:hover{
+        background-color: aliceblue;
+        color: crimson;
+       }
+       #make{
+        display: none;
+        position: absolute;
+        top: 200px;
+        left: 600px;
+        height: 100px;
+        width: 200px;
+        background-color: aliceblue;
+        text-align: center;
+       }
+       #email:hover{
+            color: red;
+         }
+         #red:hover{
+            color: red;
+         }
+         #black:hover{
+            color: red;
+            padding: 10px;
+            background-color: azure;
+         }
+         main{
+            color:aliceblue;
+            height: 20px;
+            width: 150px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+         }
+         #p1{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            text-align: center;
+            margin-left: 10%;
+         }
+         #para1:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 80px;
+            text-align: center;
+            color: red;
+         }
+         #para2:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 150px;
+            text-align: center;
+            color: red;
+         }
+         #para3:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 100px;
+            text-align: center;
+            color: red;
+         }
+         #mark:hover{
+            background-color: aliceblue;
+            height: 10px;
+            width:100px ;
+            padding: 10px;
+         }
+         
+         .head{
+            background-color: rgb(245, 129, 87);
+            width: 100%;
+            margin-bottom: 10px;
+            text-align: left;
+            padding: 10px;
+            border: none;
+        }
+         .head::after{
+            content: "-";
+            position: absolute;
+            left: 97%;
+        } 
+        .pink{
+            border: 1px solid red;
+            height: 100px;
+            display: none;
+            overflow: scroll;
+            border: none;
+        }
+        #black:hover{
+            color: red;
+            padding: 10px;
+            background-color: azure;
+            height: 10px;
+            width: 80px;
+            padding: 10px;
+         }
+        </style>
+
+    </head>
+    <body>
+        <marquee behavior="alternate" direction="left">Our best offer Ever!!Summer Special - Get 3 Courses at 22499/- only.<U style="color: blue;">Read More</U></marquee> 
+      <div id="ug">
+      <main id="email">Email:besanttechnology@gmail.com</main>
+       <main id="red">contact:+919025741101</main>
+       <a href="http://127.0.0.1:5500/facebook.html?" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="http://127.0.0.1:5500/twittwer.html" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="http://127.0.0.1:5500/instagram.html?" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+       <a href="http://127.0.0.1:5500/linkendin.html" target="_blank"><i  class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    </div>
+    <div class="hello">
+        <h4 style="color: green;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            Besant Technology</h4>
+            <a href="besant project-1.html" target="_blank"><h4 id="black">Home</h4></a>
+            <h4 id="para1">About</h4>
+            <h4 id="mark" onclick="goggle()">Courses</h4>
+                <form id="make">
+                    <span id="main">&times;</span>
+                    <br>
+                    <button style="width:170px ; height:30px">Front End</button><br>
+                    <a href="beasant-backend.html" target="_blank"><input type="button" value="Back End" style="width:170px ; height:30px"></a>
+                 </form>
+                 <h4 id="para2">Online Training</h4>
+                 <h4 id="para3">Contact</h4>
+                 <input type="submit" value="Enquairy" id="rowdy" onclick="myCall()">
+             </div>
+            <form id="buji" onsubmit="enquairy()">
+    <main id="raj">&times;</main> 
+    <h3>Quick Enquiry</h3>
+    <br><br>
+    <label>Name*</label><br>
+    <input type="text" id="input1" required><br>
+    <label>Phone:</label><br>
+    <input type="type" id="input2" required><br>
+    <label>Email*</label><br>
+    <input type="email" id="input3" required><br><br>
+    <input type="submit" value="IM Intersted Tell Me More" id="input4" required>
+</form>
+        <h1 style="color: orangered;text-align: center;">Front End</h1>
+        <div id="p1">
+            <main style="background-color: orangered;"><i class="fa fa-user-o" aria-hidden="true"></i>+Enroll</main>
+            <main style="background-color: rgb(52, 9, 211);">Javascript</main>
+            <main style="background-color: rgb(54, 17, 218);">React</main>
+            <main style="background-color: orangered;"><i class="fa fa-calendar" aria-hidden="true"></i>View Batches</main>
+        </div>
+        <br><br>
+        <div>
+             <h5 style="color:orangered;text-align:center">Who this course is for?</h5> 
+             <ul>
+                <li>Manual testers,Non-Programming aware testers intersted in learning automation</li>
+                <li>Any Software engineer who are intersted in Mobile Technologies</li>
+                <li>Freshers/ Undergraduates/ Graduates/ Software Testers</li>
+             </ul>
+        </div>
+        <div>
+            <h5 style="color:orangered;text-align:center">Why take this course?</h5>
+            <ul>
+                <li>Working profcessionals who wants to upgrade their skills from manual testing</li>
+                <li>One who is willing to move into automation testing projects</li>
+                <li>One who is working in automation and want to learn advance concepts for implementing in their projects</li>
+            </ul>
+        </div>
+        <div>
+            <h5 style="color:orangered;text-align:center">Why you will learn?</h5>
+            <ul>
+                <li>Manual testers,Non-Programming aware testers intersted in learning automation</li>
+                <li>You will be able to handle real time challenges using selenium</li>
+                <li>Complete knowledge on Test NG, MAVEN, JENKINS</li>
+                <li>You will improve your coding skills in writing best optimized code Automating test cases</li>
+                <li>In-depth understanding of real time selenium CHALLENGES</li>
+                <li>******You need NOT have java coding experience to start this course. Even non programming candidates can follow this course comfortably</li>
+                <li>All installiation setup including java knowleadge is taken care part of course</li>
+                <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreads of Recruiters ! our network.******</li>
+            </ul>
+        </div>
+        <button class="head">HTML</button>
+        <ul class="pink">
+            <li>Manual testers,Non-Programming aware testers intersted in learning automation</li>
+                <li>You will be able to handle real time challenges using selenium</li>
+                <li>Complete knowledge on Test NG, MAVEN, JENKINS</li>
+                <li>You will improve your coding skills in writing best optimized code Automating test cases</li>
+                <li>In-depth understanding of real time selenium CHALLENGES</li>
+                <li>******You need NOT have java coding experience to start this course. Even non programming candidates can follow this course comfortably</li>
+                <li>All installiation setup including java knowleadge is taken care part of course</li>
+                <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreads of Recruiters ! our network.******</li>
+            </ul>
+        </ul>
+        <button class="head">CSS</button>
+        <ul class="pink">
+            <li>Manual testers,Non-Programming aware testers intersted in learning automation</li>
+            <li>You will be able to handle real time challenges using selenium</li>
+            <li>Complete knowledge on Test NG, MAVEN, JENKINS</li>
+            <li>You will improve your coding skills in writing best optimized code Automating test cases</li>
+            <li>In-depth understanding of real time selenium CHALLENGES</li>
+            <li>******You need NOT have java coding experience to start this course. Even non programming candidates can follow this course comfortably</li>
+            <li>All installiation setup including java knowleadge is taken care part of course</li>
+            <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreads of Recruiters ! our network.******</li>
+        </ul>
+        </ul>
+        <button class="head">JAVASCRIPT</button>
+        <ul class="pink">
+            <li>Manual testers,Non-Programming aware testers intersted in learning automation</li>
+                <li>You will be able to handle real time challenges using selenium</li>
+                <li>Complete knowledge on Test NG, MAVEN, JENKINS</li>
+                <li>You will improve your coding skills in writing best optimized code Automating test cases</li>
+                <li>In-depth understanding of real time selenium CHALLENGES</li>
+                <li>******You need NOT have java coding experience to start this course. Even non programming candidates can follow this course comfortably</li>
+                <li>All installiation setup including java knowleadge is taken care part of course</li>
+                <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreads of Recruiters ! our network.******</li>
+            </ul>
+        </ul>
+        <button class="head">REACT JS</button>
+        <ul class="pink">
+            <li>Manual testers,Non-Programming aware testers intersted in learning automation</li>
+            <li>You will be able to handle real time challenges using selenium</li>
+            <li>Complete knowledge on Test NG, MAVEN, JENKINS</li>
+            <li>You will improve your coding skills in writing best optimized code Automating test cases</li>
+            <li>In-depth understanding of real time selenium CHALLENGES</li>
+            <li>******You need NOT have java coding experience to start this course. Even non programming candidates can follow this course comfortably</li>
+            <li>All installiation setup including java knowleadge is taken care part of course</li>
+            <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreads of Recruiters ! our network.******</li>
+        </ul>
+        </ul>
+
+       <script>
+        const front=document.getElementById("mark")
+                    const back=document.getElementById("make")
+                    function goggle(){
+                        back.style.display="block"
+                    }
+                    const rajesh=document.getElementById("main")
+                    rajesh.onclick=function(){
+                        back.style.display="none"
+                    }
+
+
+                    function enquairy(){
+  const b1=document.getElementById("input1").value
+  const b2=document.getElementById("input2").value
+  const b3=document.getElementById("input3").value
+  const b4=document.getElementById("input4").value
+
+  if(b1.length<6){
+    alert("alteast enter more than 6 characters")
+  }
+  else if(b2.length==10){
+    alert("enter 10 digit numbers")
+  }
+  else{
+    alert("successfully submitted")
+  }
+}
+
+const input=document.getElementById("rowdy")
+const g=document.getElementById("buji")
+function myCall(){
+    g.style.display="block"
+}
+
+const haritha=document.getElementById("raj")
+haritha.onclick=function(){
+    g.style.display="none"
+}
+
+
+
+        const a=document.getElementsByClassName("head")
+        var i;
+        for(i=0;i< a.length;i++){
+            a[i].addEventListener("click",function(){
+                this.classList.toggle("active")
+                
+                var x= this.nextElementSibling
+                if(x.style.display === "block"){
+                    x.style.display = "none"
+                }
+                else{
+                    x.style.display ="block"
+                }
+            })
+        }
+        
+       </script>
+    </body>
+</html>
