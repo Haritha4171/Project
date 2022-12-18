@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <script src="https://kit.fontawesome.com/43df530aea.js" crossorigin="anonymous"></script>
+        <style>
+            marquee{
+                background-color: orange;
+                padding: 10px;
+            }
+            #ug{
+                color: white;
+                background-color: black;
+                padding: 10px;
+                display: grid;
+                grid-template-columns: auto 40% auto auto auto auto;
+            }
+            .hello{
+                background-color: aquamarine;
+                padding: 10px;
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto auto auto;
+                text-decoration: none;
+            }
+            #buji{
+        background-color: aliceblue;
+        padding: 10px;
+        height: 500px;
+        width: 400px;
+        text-align: center;
+        border-radius: 10px;
+       } 
+       #buji{
+        display: none;
+        position: absolute;
+        top: 170px;
+        left: 67%;
+
+       }
+       #raj{
+        position: absolute;
+        top: 10px;
+        right: 5px;
+       }
+       #main{
+        position:absolute;
+        top: 10px;
+        right: 2%;
+       }
+       #mark:hover{
+        background-color: aliceblue;
+        color: crimson;
+       }
+       #make{
+        display: none;
+        position: absolute;
+        top: 170px;
+        left: 600px;
+        height: 100px;
+        width: 200px;
+        background-color: aliceblue;
+        text-align: center;
+       }
+             #madam{
+                display: grid;
+                grid-template-columns: auto auto auto auto  ;
+                text-align: center;
+            } 
+            #mom{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 10px;
+                text-align: center;
+            }
+            #dad{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 10px;
+                text-align: center;
+            }
+            #bro{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 10px;
+                text-align: center;
+            }
+            #sis{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 10px;
+                text-align: center;
+            }
+            footer{
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                background-color: aquamarine;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                text-align: center;
+            }
+            #pg{
+                height: 300px;
+                width: 500px;
+                position: absolute;
+                left: 100px;
+                top: 200px;
+                color:white;
+            }
+             
+            form{
+                text-align: center;
+                background-color:whitesmoke;
+                height: 300px;
+                width: 300px;
+                border-radius: 30px;
+            }
+            #h{
+                display: none;
+                position: absolute;
+                left: 40%;
+                top: 300px;
+            }
+            #s{
+                display: block;
+                position: absolute;
+                left: 90%;
+                top: 10px;
+            }
+       #john{
+        background-color: aqua;
+        padding: 10px;
+        border-radius: 50px;
+       }
+       img{
+            height: 600px;
+            width: 100%;
+          }
+          #p1{
+            background-color: skyblue;
+            height: 50px;
+             width: 50px;
+            border-radius: 80px;
+            position: absolute;
+            top: 900px;
+            left: 150px;
+          }
+
+          #z{
+            background-color:lightgreen;
+            color: black;
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 200px;
+            text-align: center;
+          }
+          #z:hover{
+            background-color: aliceblue;
+          }
+          #p2{
+            background-color: skyblue;
+            height: 50px;
+             width: 50px;
+            border-radius: 80px;
+            position: absolute;
+            top: 900px;
+            left: 460px;
+          }
+          #y{
+            background-color:lightgreen;
+            color: black;
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 200px;
+            text-align: center;
+          }
+          #y:hover{
+            background-color: aliceblue;
+          }
+          #p3{
+            background-color: skyblue;
+            height: 50px;
+             width: 50px;
+            border-radius: 80px;
+            position: absolute;
+            top: 900px;
+            left: 780px; 
+          }
+          #u{
+            background-color:lightgreen;
+            color: black;
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 200px;
+            text-align: center;
+          }
+          #u:hover{
+            background-color: aliceblue;  
+          }
+          #p4{
+            background-color: skyblue;
+            height: 50px;
+             width: 50px;
+            border-radius: 80px;
+            position: absolute;
+            top: 900px;
+            left: 1100px; 
+          }
+          #v{
+            background-color:lightgreen;
+            color: black;
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 200px;
+            text-align: center;
+          }
+          #v:hover{
+            background-color: aliceblue;
+          }
+         a:hover{
+             color: red;
+         }
+         #email:hover{
+            color: red;
+         }
+         #red:hover{
+            color: red;
+         }
+         #black:hover{
+            color: red;
+            padding: 10px;
+            background-color: azure;
+            height: 10px;
+            width: 80px;
+            padding: 10px;
+         }
+         #rowdy{
+            border-radius: 20px;
+            height: 30px;
+            width: 100px;
+            position: absolute;
+            top: 110px;
+            right: 60px;
+            background-color: darkgreen;
+         }
+         #besant:hover{
+background-color: white;
+         }
+         #para1:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 80px;
+            text-align: center;
+            color: red;
+         }
+         #para2:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 150px;
+            text-align: center;
+            color: red;
+         }
+         #para3:hover{
+            background-color: aliceblue;
+            padding: 10px;
+            height: 10px;
+            width: 100px;
+            text-align: center;
+            color: red;
+         }
+         #mark:hover{
+            background-color: aliceblue;
+            height: 10px;
+            width:100px ;
+            padding: 10px;
+         }
+         
+         #z1{
+            border: 1px solid black;
+            box-shadow: 5px 6px skyblue;
+            border-radius: 10px;
+         }
+         #z2{
+            border: 1px solid black;
+            box-shadow: 5px 6px skyblue;
+            border-radius: 10px;
+         }
+         #z3{
+            border: 1px solid black;
+            box-shadow: 5px 6px skyblue;
+            border-radius:10px ;
+         }
+         #z4{
+            border: 1px solid black;
+            box-shadow: 5px 6px skyblue;
+            border-radius: 10px ;
+         }
+         #z5{
+            border: 1px solid black;
+            box-shadow: 5px 6px skyblue;
+            border-radius: 10px;
+         }
+         #z6{
+            border: 1px solid black;
+            box-shadow: 5px 6px skyblue;
+            border-radius: 10px;
+         }
+         </style>
+    </head>
+    <body>
+      <marquee behavior="alternate" direction="left">Our best offer Ever!!Summer Special - Get 3 Courses at 22499/- only.<U style="color: blue;">Read More</U></marquee> 
+      <div id="ug">
+      <main id="email">Email: besanttechnology@gmail.com</main>
+       <main id="red"> contact:+91 9025741101</main>
+       <a href="http://127.0.0.1:5500/facebook.html?" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" style="color: white;"></i></a>
+        <a href="http://127.0.0.1:5500/twittwer.html" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true" style="color: white;"></i></a>
+       <a href="http://127.0.0.1:5500/instagram.html?" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="color: white;"></i></a>
+       <a href="http://127.0.0.1:5500/linkendin.html" target="_blank"><i  class="fa fa-linkedin-square" aria-hidden="true" style="color: white;"></i></a>
+    </div>
+    <div class="hello">
+        <h4 style="color: green;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            Besant Technology</h4>
+            <h4 id="black">Home</h4>
+            <h4 id="para1">About</h4>
+            <h4 id="mark" onclick="goggle()">Courses</h4>
+                <form id="make">
+                    <span id="main">&times;</span>
+                    <br>
+                   <a href="besant-frontend.html" target="_blank"><input type="button" value="FrontEnd" style=" width:170px ; height:30px"><br></a>
+                   <a href="beasant-backend.html" target="_blank"><input type="button" value="Back End" style="width:170px ; height:30px"></a>
+                 </form>
+                 <a href="besant-online course.html" target="_blank"><h4 id="para2">Online Training</h4></a>
+                 <h4 id="para3">Contact</h4>
+                 <a href="employee project2.html" target="_blank"><h4>Employee Details</h4></a>
+                 <input type="submit" value="Enquairy" id="rowdy" onclick="myCall()">
+             </div>
+             
+            <form onsubmit="home()" id="h">
+    <main id="s">&times;</main> 
+    <h3>Quick Enquiry</h3>
+    <br><br>
+    <label>Name*</label><br>
+    <input type="text" id="input1" required><br>
+    <label>Phone:</label><br>
+    <input type="type" id="input2" required><br>
+    <label>Email*</label><br>
+    <input type="email" id="input3" required><br><br>
+    <input type="submit" value="IM Intersted Tell Me More" id="input4" required>
+ </form>
+<img id="img">
+<div id="pg">
+    <p><U style="font-size:30px ;">Besant Technology</U><br><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus aut dolorum nulla voluptas voluptate<br> quibusdam rem harum maiores dolores Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore rerum<br> praesentium reprehenderit incidunt <br>maiores debitis obcaecati accusantium ipsum eius quam?</p>
+    <br><br>
+    <button style="background-color:darkgreen;color:aliceblue;border-radius: 5px;" id="btn" onclick="myFunction()">Apply Online</button>
+    
+</div>
+<form id="buji" onsubmit="enquairy()">
+    <span id="raj">&times;</span>
+    <h3>Request For<br> Classroom & Online Training Quotations.</h3><br>
+    <div id="john">
+    <i class="fa fa-university" aria-hidden="true"> &ensp;Classroom</i>&ensp;&ensp;&ensp;
+    <i class="fa fa-laptop" aria-hidden="true">&ensp;Online</i>
+</div>
+<br>
+<br>
+    <input type="text" placeholder="ENTER YOUR NAME" id="user1" required style="height:30px ;width:300px"><br><br>
+    <input type="email" placeholder="ENTER YOUR EMAIL" id="user3" required style="height:30px ;width:300px"><br><br>
+    <input type="text" placeholder="ENTER YOUR PHONE NUMBER" id="user2" required style="height:30px ;width:300px"><br><br>
+    <select style="height:30px ;width:300px">
+        <option>Select course &ensp;</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JAVASCRIPT</option>
+        <option>REACT JS</option>
+    </select>
+<br>
+<br><br>
+    <input type="submit" value="Submit Query" style="color: white; border-radius:10px;padding:10px;background-color: aqua;">
+</form>
+<script>
+var i=0
+       var images=["https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=400" ,"https://images.pexels.com/photos/3584926/pexels-photo-3584926.jpeg?auto=compress&cs=tinysrgb&w=400","https://images.pexels.com/photos/9051675/pexels-photo-9051675.jpeg?auto=compress&cs=tinysrgb&w=400","https://images.pexels.com/photos/5641832/pexels-photo-5641832.jpeg?auto=compress&cs=tinysrgb&w=400","https://images.pexels.com/photos/2258536/pexels-photo-2258536.jpeg?auto=compress&cs=tinysrgb&w=400","https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=400","https://images.pexels.com/photos/3183179/pexels-photo-3183179.jpeg?auto=compress&cs=tinysrgb&w=400"]
+       function myBoss(){
+        document.getElementById("img").src=images[i]
+        if(i<images.length-1){
+          i++
+        }
+        else{
+          i=0
+        }
+        setTimeout("myBoss()", 2000)
+       }
+       window.onload=myBoss()
+
+
+       const front=document.getElementById("mark")
+                    const back=document.getElementById("make")
+                    function goggle(){
+                        back.style.display="block"
+                    }
+                    const rajesh=document.getElementById("main")
+                    rajesh.onclick=function(){
+                        back.style.display="none"
+                    }
+
+
+                    function enquairy(){
+  const b1=document.getElementById("input1").value
+  const b2=document.getElementById("input2").value
+  const b3=document.getElementById("input3").value
+  const b4=document.getElementById("input4").value
+
+  if(b1.length<6){
+    alert("alteast enter more than 6 characters")
+  }
+  else if(b2.length==10){
+    alert("enter 10 digit numbers")
+  }
+  else{
+    alert("successfully submitted")
+  }
+}
+
+const input=document.getElementById("rowdy")
+const g=document.getElementById("buji")
+function myCall(){
+    g.style.display="block"
+}
+
+const haritha=document.getElementById("raj")
+haritha.onclick=function(){
+    g.style.display="none"
+}
+
+    function home(){
+        const a1=document.getElementById("user1").value
+        const a2=document.getElementById("user2").value
+        const a3=document.getElementById("user3").value
+
+        if(a1.length<5){
+            alert("enter atleast above 5 characters")
+        }
+        else if(a2==10){
+        alert("enter 10 digits numbers")
+        }
+        else{
+            alert("succesfully registered")
+        }
+    }
+
+
+    const button=document.getElementById("btn")
+    const f=document.getElementById("h")
+    function myFunction(){
+        f.style.display="block"
+    }
+    const close=document.getElementById("s")
+    close.onclick=function(){
+    f.style.display="none"
+    }
+</script>
+
+<h3 style="text-align:center ;">Key Features</h3>
+<main style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam quia, eaque obcaecati reiciendis delectus, quam sapiente blanditiis adipisci maxime earum eveniet. Dolorum officia expedita,<br> eos vitae <br>nisi veniam consequuntur.</main>
+<br><br>
+<div id="madam">
+    <div id="z">
+    <i class="fa fa-file-word-o" aria-hidden="true" id="p1"></i><br><br><br>
+    <main>Expert Faculty<br><br> Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.<br> Dolorem, veritatis!</main><br>
+</div>
+<div id="y">
+      <i class="fa fa-clock-o" aria-hidden="true" id="p2"></i><br><br><br>
+    <main>Well Equiped Labs<br><br>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. <br>Nostrum, doloremque?</main><br>
+</div>
+<div id="u">
+    <i class="fa fa-university" aria-hidden="true" id="p3"></i><br><br><br>
+    <main>Quality Education<br><br>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. <br>Architecto, vitae.</main><br>
+</div>
+<div id="v">
+     <i class="fa fa-phone-square" aria-hidden="true" id="p4"></i><br><br><br>
+    <main>24*7 Accessories<br><br>Lorem, ipsum dolor sit amet<br> consectetur adipisicing elit.<br> Impedit, repellendus?</main><br>
+</div>
+</div>
+<br><br>
+<h1 style="text-align:center;">Our Courses</h1>
+<main style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quam adipisci nostrum ab. Eaque quidem corrupti labore architecto placeat animi ullam atque debitis illo quas recusandae voluptate <br>eligendi necessitatibus id fugiat, reiciendis nobis suscipit blanditiis.<br> Quidem architecto non laboriosam odit!</main>
+<br><br><br><br>
+<div id="mom">
+    <main  style="background-color:lightgreen;color:white;padding:10px;border-radius: 10px">Full Stock Development</main>
+    <main  style="background-color:lightgreen;color:white;padding:10px;border-radius: 10px">Front End Development</main>
+    <main  style="background-color:lightgreen;color:white;padding:10px;border-radius: 10px">Bank End Development</main>
+</div>
+<div id="dad">
+    <main id="z1"><b>Cras ultricies lacus consectetur<br>consector</b><br><br><i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+   
+   
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+         <br><br>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Fugiat dicta fuga inventore <br>blanditiis aperiam sapiente.
+         <br><br><br>
+         <a href="http://127.0.0.1:5500/Document.html" target="_blank"><button style="padding: 10px; background-color:lightgreen;border-radius: 10px;">Apply Online</button></a>
+        <br><br>
+        </main>
+    <main id="z2"><b>Cras ultricies lacus consectetur<br>consector</b><br><br><i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+         <br><br>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Fugiat dicta fuga inventore <br>blanditiis aperiam sapiente.
+         <br><br><br>
+         <a href="http://127.0.0.1:5500/Document.html" target="_blank"><button style="padding: 10px; background-color:lightgreen;border-radius: 10px;">Apply Online</button></a>
+         <br><br>
+        </main>
+    <main id="z3"><b>Cras ultricies lacus consectetur<br>consector</b><br><br><i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+         <br><br>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Fugiat dicta fuga inventore <br>blanditiis aperiam sapiente.
+         <br><br><br>
+         <a href="http://127.0.0.1:5500/Document.html" target="_blank"><button style="padding: 10px; background-color:lightgreen;border-radius: 10px;">Apply Online</button></a>
+         <br><br>
+        </main>
+</div>
+<br>
+<div id="bro">
+    <main  style="background-color:lightgreen;color:white;padding:10px;width: 400px;border-radius: 10px;">Data Science</main>
+    <main  style="background-color:lightgreen;color:white;padding:10px;width: 400px;border-radius: 10px">AWS</main>
+    <main  style="background-color:lightgreen;color:white;padding:10px;width: 400px;border-radius: 10px">Deveops</main>
+</div>
+<div id="sis">
+    <main id="z4"><b>Cras ultricies lacus consectetur<br>consector</b><br><br><i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+         <br><br>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Fugiat dicta fuga inventore <br>blanditiis aperiam sapiente.
+         <br><br><br>
+         <a href="http://127.0.0.1:5500/Document.html" target="_blank"><button style="padding: 10px; background-color:lightgreen;border-radius: 10px;">Apply Online</button></a>
+         <br><br>
+        </main>
+    <main id="z5"><b>Cras ultricies lacus consectetur<br>consector</b><br><br><i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+         <br><br>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Fugiat dicta fuga inventore <br>blanditiis aperiam sapiente.
+         <br><br><br>
+         <a href="http://127.0.0.1:5500/Document.html" target="_blank"><button style="padding: 10px; background-color:lightgreen;border-radius: 10px;">Apply Online</button></a>
+         
+         <br><br>
+    </main>
+    <main id="z6"><b>Cras ultricies lacus consectetur<br>consector</b><br><br><i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+        <i style="color: gold;" class="fa fa-star" aria-hidden="true"></i>
+         <br><br>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Fugiat dicta fuga inventore <br>blanditiis aperiam sapiente.
+         <br><br><br>
+         <a href="http://127.0.0.1:5500/Document.html" target="_blank"><button style="padding: 10px; background-color:lightgreen;border-radius: 10px;">Apply Online</button></a>
+         <br><br>
+        </main>
+</div>
+<br><br>
+<footer>
+    <main><i class="fa fa-graduation-cap" aria-hidden="true"></i><b>Besant Technology</b><br><br>Lorem ipsum dolor, sit <br>amet consectetur adipisicing elit. Sapiente <br>quibusdam nihil aspernatur rerum itaque ipsum? <br>Exercitationem in consequatur at placeat<br> est cumque assumenda illo, commodi <br>aliquam quasi, eveniet, perspiciatis nostrum.
+    </main>
+    <br>
+    <main><b>Our Services</b><br><br>Mobile Applications<br>Design<br><br>Web Applications<br>Design<br><br>Wedsites Design<br><br>Web User Interface<br>Design<br><br>web UX Design and<br>Research<br><br>Theame<br>Development Design</main>
+    <main><b>Head Office</b><br><br>1/2,Marathahalli ,Bengaluru<br>Karnataka-560037,<br>Phone:+91 9025741101<br>Email:besanttechnology@gmail.com<br><br><b>Office Time:</b>10AM-6PM</main>
+    <main><b>Subscribe Us</b><br><br>
+    <input type="text" placeholder="Enter Email Address" style="padding:10px ;"><br>
+    <br>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><i style="padding:10px ; background-color:darkgreen;border-radius:10px; color: aliceblue;" class="fa fa-telegram" aria-hidden="true"></i><br><br></a>
+    <a href="http://127.0.0.1:5500/facebook.html?" target="_blank"><i style="padding:10px ; background-color:darkgreen;border-radius:10px;color: aliceblue;"class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="http://127.0.0.1:5500/twittwer.html" target="_blank"><i style="padding:10px ; background-color:darkgreen;border-radius:10px;color: aliceblue;"class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    <a href="http://127.0.0.1:5500/instagram.html?" target="_blank"><i style="padding:10px ; background-color:darkgreen;border-radius:10px;color: aliceblue;"class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="http://127.0.0.1:5500/linkendin.html" target="_blank"><i style="padding:10px ; background-color:darkgreen;border-radius:10px;color: aliceblue;"class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+</main>
+</footer>
+    </body>
+</html>
